@@ -3,11 +3,6 @@
 Glorious plugin that make it easier to create and edit snippets.
 
 
-### Demo
-
-![Demo](https://raw.github.com/shagabutdinov/sublime-snippet-manager/master/demo/demo.gif "Demo")
-
-
 ### Installation
 
 This plugin is part of [sublime-enhanced](http://github.com/shagabutdinov/sublime-enhanced)
@@ -40,3 +35,8 @@ directory.
 |-------------------------------------|-------------------|------------------------|
 | Create snippet from selection       | ctrl+u, ctrl+w    | SnippetManager: Create |
 | List snippets for current langugage | ctrl+u, w         | SnippetManager: List   |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-file-list
