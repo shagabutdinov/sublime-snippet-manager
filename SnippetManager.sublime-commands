@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "SnippetManager: Create",
+    "command": "create_snippet_from_selection"
+  },
+
+  {
+    "caption": "SnippetManager: List",
+    "command": "show_snippet_opener"
+  }
+]

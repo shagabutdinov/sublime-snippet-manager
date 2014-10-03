@@ -1,0 +1,11 @@
+[
+  {
+    "keys": ["ctrl+u", "ctrl+w"],
+    "command": "create_snippet_from_selection"
+  },
+
+  {
+    "keys": ["ctrl+u", "w"],
+    "command": "show_snippet_opener"
+  }
+]

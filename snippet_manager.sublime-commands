@@ -1,0 +1,5 @@
+[
+  {"caption": "Snippets: Create snippet from selection", "command": "create_snippet_from_selection"},
+  {"caption": "Snippets: Open snippet", "command": "show_snippet_opener"},
+  {"caption": "Snippets: Delete snippet", "command": "show_snippet_deleter"},
+]
