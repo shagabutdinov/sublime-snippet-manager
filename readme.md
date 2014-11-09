@@ -39,4 +39,4 @@ directory.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-file-list
+* [FileList](https://github.com/shagabutdinov/sublime-file-list)

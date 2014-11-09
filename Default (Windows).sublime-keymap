@@ -1,11 +1,17 @@
 [
   {
     "keys": ["ctrl+u", "ctrl+w"],
-    "command": "create_snippet_from_selection"
+    "command": "create_snippet_from_selection",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   },
 
   {
     "keys": ["ctrl+u", "w"],
-    "command": "show_snippet_opener"
+    "command": "show_snippet_opener",
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+    ]
   }
 ]

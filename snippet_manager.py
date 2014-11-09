@@ -1,8 +1,15 @@
 import sublime
 import sublime_plugin
+
 import re
 import os
-from FileList.file_list import FileList
+
+try:
+  from FileList.file_list import FileList
+except ImportError:
+  sublime.error_message("Dependency import failed; please read readme for " +
+   "SnippetManager plugin for installation instructions; to disable this " +
+   "message remove this plugin")
 
 # utility functions
 
