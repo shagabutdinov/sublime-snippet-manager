@@ -6,10 +6,11 @@ import os
 
 try:
   from FileList.file_list import FileList
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "SnippetManager plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 # utility functions
 
